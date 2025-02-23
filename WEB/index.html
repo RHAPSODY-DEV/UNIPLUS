@@ -26,6 +26,56 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <style>
+    body {
+       
+        text-align: center;
+        padding: 0px;
+    }
+    .box {
+        max-width: 600px;
+        margin: auto;
+    }
+    .orphange picture {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+    }
+    .slides {
+        display: flex;
+        width: 300%;
+        animation: slide 9s infinite;
+    }
+    .slides img {
+        width: 100%;
+        height: 300px;
+    }
+    @keyframes slide {
+        0% { transform: translateX(0); }
+        33% { transform: translateX(-100%); }
+        66% { transform: translateX(-200%); }
+        100% { transform: translateX(0); }
+    }
+    .video {
+        margin-top: 20px;
+      
+    }
+    .donate-btn {
+        background-color: #007bff;
+        color: white;
+        padding: 15px;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    .donate-btn:hover {
+        background-color: #0056b3;
+    }
+</style>
+
 </head>
 
 <body class="index-page">
@@ -760,60 +810,115 @@
         <p>A little good seed sown into a good soil goes a long way to growing beautifully<br>However way you are willing to support this cause, you are not restricted</p>
       </div><!-- End Section Title -->
 
+          <!--DONATE SECTION-->
+
+<!--Orphange 1-->
       <div class="container">
 
         <div class="row g-4 g-lg-0">
 
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Donate </h3>
-              <!-- <h4><sup>$</sup>0<span> / month</span></h4> -->
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <div class="text-center"><a href="#" class="buy-btn">DONATE</a></div>
+          <div class="box">
+            <h2>Ecohing Hills Village</h2>
+        
+            <!-- Slideshow -->
+            <div class="orphanage picture">
+                <div class="slides">
+                    <img src="assets/img/orphange/EcohingHills1.jpeg" alt="Orphanage Image 1">
+                    <img src="assets/img/kids.jpg" alt="Orphanage Image 2">
+                    <img src="assets/img/Billboard Mockup Poster.jpeg" alt="Orphanage Image 3">
+                    <img src="assets/img/Billboard Mockup Poster.jpeg" alt="Orphanage Image 3">
+                    <img src="assets/img/Billboard Mockup Poster.jpeg" alt="Orphanage Image 3">
+                </div>
             </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4 featured" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pricing-item">
-              <h3>In-Person Support</h3>
-             
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <div class="text-center"><a href="#" class="buy-btn">Donate</a></div>
+        
+            <!-- Video -->
+            <div class="video">
+                <video width="100%" controls>
+                    <source src="assets/video/Ecohing Hills Village.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
-          </div><!-- End Pricing Item -->
+        
+            <!-- Text Description -->
+            <p>Our orphanage provides shelter, education, and care for children in need. We require food, clothes, school supplies, and medical aid. Your donation helps us continue this mission.</p>
+        
+            <!-- Donate Button -->
+            <button class="donate-btn">Donate</button>
+        </div><!-- End of Orphanage 1 -->
 
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item">
+
+        
+        <!--Orphange 2-->
+<div class="container">
+  <div class="row g-4 g-lg-0">
+    <div class="box">
+          <h2>Support Our Orphanage</h2>
+      
+          <!-- Slideshow -->
+          <div class="orphanage picture">
+              <div class="slides">
+                  <img src="image1.jpg" alt="Orphanage Image 1">
+                  <img src="image2.jpg" alt="Orphanage Image 2">
+                  <img src="image3.jpg" alt="Orphanage Image 3">
+              </div>
+          </div>
+      
+          <!-- Video -->
+          <div class="video">
+              <video width="100%" controls>
+                  <source src="orphanage_video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+          </div>
+      
+          <!-- Text Description -->
+          <p>Our orphanage provides shelter, education, and care for children in need. We require food, clothes, school supplies, and medical aid. Your donation helps us continue this mission.</p>
+      
+          <!-- Donate Button -->
+          <button class="donate-btn">Donate</button>
+        </div>
+      </div><!--End of Orphange 2-->
+
+
+
+      <!--Orphanage 3-->
+      </div>
               <h3>Join us As a Way to Help</h3>
 
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <div class="text-center"><a href="#" class="buy-btn">Join the Team</a></div>
+              <div class="box">
+                <h2>Support Our Orphanage</h2>
+            
+                <!-- Slideshow -->
+                <div class="orphanage picture">
+                    <div class="slides">
+                        <img src="image1.jpg" alt="Orphanage Image 1">
+                        <img src="image2.jpg" alt="Orphanage Image 2">
+                        <img src="image3.jpg" alt="Orphanage Image 3">
+                    </div>
+                </div>
+            
+                <!-- Video -->
+                <div class="video">
+                    <video width="100%" controls>
+                        <source src="orphanage_video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            
+                <!-- Text Description -->
+                <p>Our orphanage provides shelter, education, and care for children in need. We require food, clothes, school supplies, and medical aid. Your donation helps us continue this mission.</p>
+            
+                <!-- Donate Button -->
+                <button class="donate-btn">Donate</button>
             </div>
-          </div><!-- End Pricing Item -->
-
         </div>
 
       </div>
 
-    </section><!-- /Pricing Section -->
+    </section><!--End of Orphanage 3 -->
+             <!--/DONATE-->
+
+
 
     <!-- Faq Section -->
 
@@ -914,7 +1019,7 @@
       </div>
     </div>
     <div class="member-info">
-      <h4>Hawa Sumalia</h4>
+      <h4>Hawa Sumaila</h4>
       <span>Secretary</span>
     </div>
   </div>
